@@ -1,21 +1,6 @@
 #include <iostream>
 using namespace std;
-class student{
-	private:
-		char hoten[30];
-		float d1,d2;
-	public:
-		void nhap();
-		void xuat();
-		float dtb(){
-			return (d1+2*d2)/3;
-		}
-		void hienthi(){
-			if(dtb()>=5){
-				cout<<"\nSinh vien co diem trung binh tren 5 la : "<<hoten;
-			}
-		}
-};
+
 void student::nhap(){
 	
 }
