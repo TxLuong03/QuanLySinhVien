@@ -17,13 +17,7 @@ class student{
 		}
 };
 void student::nhap(){
-	cin.ignore(1);
-	cout<<"Nhap ho ten : ";
-	cin.getline(hoten,30);
-	cout<<"Nhap diem 1 : ";
-	cin>>d1;
-	cout<<"Nhap diem 2 : ";
-	cin>>d2;
+	
 }
 void student::xuat(){
 	cout<<"\nHo ten sinh vien : "<<hoten;
